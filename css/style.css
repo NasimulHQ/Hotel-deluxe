@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+.wrapper{
+    width: 85%;
+    margin: 0 auto;
+}
+/*--=========This is header Start*/
+@font-face{
+    src:url(../fonts/DroidSans-Bold.ttf);
+    font-family:droidsans;
+}
+@font-face{
+    src:url(../fonts/ARDECODE.ttf);
+    font-family:ardecode;
+}
+header{
+    height: 100px;
+    background-color: #2a2e33;
+    width: 100%;
+    overflow: hidden;
+}
+header h1{
+    color: white;
+    padding: 30px 1px;
+    font-family: droidsans;
+    font-size: 30px;
+}
+.logo{
+  width: 35%;
+  display: flex;
+    float: left;
+}
+.logo p{
+    margin-top: 38px;
+    margin-left: 10px;
+    color: #ddd8d8;
+    font-size: 14px;
+}
+.nav{
+    width: 65%;
+    float: right;
+    font-family:droidsans;
+}
+.nav ul{
+    margin-top: -1px;
+    float: right;
+    overflow: hidden;
+}
+.nav ul li{
+    list-style: none;
+    float: left;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 40px 16px;
+    display: block;
+    color: white;
+    font-size: 13px;
+}
+.nav ul li a:hover{
+    background-color: #1e2329;
+    border-top: 5px solid #ffd700;
+}
+/*--=========This is header end*/
+
+
+/*--=========This is hotel-deluxe start*/
+.hotel-deluxe{
+    min-height: 460px;
+    background-color: #00ccff;
+}
+.headname h3{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 30px;
+}
+.headname h3 span{
+    font-weight: normal;}
+.dotted{
+    border-style: dotted;
+    border-width: 2px;
+    border-bottom: 1px;
+    border-color: white;
+    width: 40%;
+    text-align: center;
+    margin-left: 328px;
+}
+.headname h1{
+    color: white;
+    text-align: center;
+     padding: 15px 1px;
+    font-size: 60px;
+}
+.dotted02{
+   border-style: dotted;
+    border-width: 2px;
+    border-bottom: 1px;
+    border-color: white;
+    width: 34%;
+    text-align: center;
+    margin-left: 358px;
+}
+.headname h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    padding: 18px 1px;
+    font-size: 30px;
+}
+.datepass{
+   width: 1040px;
+    min-height: 102px;
+    background-color: #2a2e33;
+    position: absolute;
+    margin: 65px 15px;
+    display: flex;
+    box-shadow: 0px 10px 20px black;
+}
+.arrival{
+    width: 275px;
+  
+    position: relative;
+}
+.form-group{ 
+   margin-top: 15px;
+}
+.form-group input{
+    margin: 5px 16px;
+    border-radius: 6px;
+    border: none;
+    height: 40px;
+    width: 225px;
+    padding-left: 22px;
+}
+.form-group label{
+    color: gold;
+     margin-left: 18px;
+}
+.form-group img{
+    top: 52%;
+    left: 20px;
+    position: absolute;
+}
+.form-group select{
+    margin: 5px 16px;
+    border-radius: 6px;
+    border: none;
+    height: 40px;
+    width: 250px;
+    padding-left: 22px;
+    }
+.departure{
+    width: 275px;
+    position: relative;
+}
+.room-type{
+    width: 276px;
+}
+.view-price{
+    width: 208px;
+  
+}
+.view-price button{
+    border: none;
+    height: 44px;
+    width: 170px;
+    border-radius: 12px;
+    background: gold;
+    font-weight: bold;
+    margin-top: 37px;
+    margin-left: 14px;
+}
+
+/*--=========This is hotel-deluxe end*/
+
+
+/*--=========This is book package start*/
+.book-package{
+   background-image: url(../images/booking.jpg); 
+       height: 500px;
+           border-bottom: 1px solid black;
+        
+}
+.text{
+    padding: 70px 0px;
+
+}
+.text h1{
+    text-align: center;
+    font-family:ardecode;
+    font-size: 60px;
+}
+.text p{
+    font-size: 14px;
+    text-align: center;
+}
+.person-img{
+    width: 70%;
+    margin-left: 158px;
+    display: flex;
+    
+    
+}
+.person-img img{
+    border-radius: 50%;
+    padding: 2px 12px;
+}
+/*--=========This is book package end*/
+
+/*--=========This is main-content start*/
+#content{
+    background-image: url(../images/contentbg.png);
+    height: 796px;
+     
+}
+.h1font{
+    text-align: center;
+    padding-top: 50px;
+    font-family:ardecode;
+    font-size: 60px;
+}
+.empty{
+    float: left;
+    width: 27%;
+    margin-left: 67px;
+    margin-top: 10px;
+}
+.content-text{
+    margin-top: 6px;
+}
+
+.content-img img{
+    width: 100%;
+}
+.content-text h1 , p{
+    text-align: center;
+font-family: 'Quicksand', sans-serif;}
+.roomtype{
+    width: 100%;
+   padding: 19px 0px;
+}
+.content-text ul{
+    list-style: none;
+    padding: 8px 36px;
+}
+.content-text ul li{
+    float: left;
+    margin-left: 10px;
+}
+/*--=========This is main-content end*/
+
+/*--=========This is content-bottom  start*/
+#content-bottom{
+    height: 180px;
+    background-color: #e7cb2c;
+    display: flex;
+    position: relative;
+}
+.contentbottom-left{
+    width: 60%;
+}
+
+.contentbottom-right{
+    width: 38%;
+}
+.contentbottom-left h1{
+    color: white;
+font-weight: normal;
+font-size: 38px;
+padding-top: 53px;
+}
+.contentbottom-left p{
+    color: white;
+    padding-top: 13px;
+    text-align: left;
+    font-size: 14px;
+}
+.contentbottom-right{
+    width: 30%;
+    right: 80px;
+    position: absolute;
+    margin-top: -236px;
+}
+/*--=========This is content-bottom  end*/
+
+
+/*--=========This is footer start*/
+footer{
+    background-color: #333333;
+    height: 326px;
+    padding-top: 20px;
+}
+.left{
+    float: left;
+    padding-left: 12px;
+    
+}
+.left h1{
+    color: white;
+    font-size: 18px;
+}
+.left p{
+    color: white;
+    text-align: left;
+    padding-top: 10px;
+    font-size: 12px;
+}
+.left p span{
+    color: #b1970e;
+}
+
+.left button{
+    margin-top: 23px;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 90px;
+    background-color: #e7cb2c;
+}
+.footer1{
+    width: 20%;
+    
+}
+.footer2{
+    width: 20%;
+    
+}
+.footer3{
+    width: 35%;
+    
+}
+.footer4{
+    width: 20%;
+    
+}
+.left label{
+    color: white;
+    font-size: 12px;
+}
+.left input{
+    background: none;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 2px 5px;
+    margin-top: 5px;
+} 
+}
+.ftr01{
+    margin-top: 10px;
+}
+.ftr02{
+    margin-top: 10px;
+}
+.ftr03{
+    margin-top: 10px;
+}
+.ftr03 button{
+    margin-top: 10px;
+}
+/*--=========This is footer end*/
